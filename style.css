@@ -1,0 +1,36 @@
+/* Importing Poppins Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.session-title {
+    cursor: pointer;
+}
+
+.session-info {
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.done-btn {
+    display: none;
+}
+
+.done-btn.completed {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.session-info.completed {
+    background-color: #d4edda;
+}
